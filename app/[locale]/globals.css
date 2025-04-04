@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  /* تعريف الألوان الأساسية */
+  --color-primary: #fe824c;
+  --color-secondary: #55208a;
+  --color-accent: #e8027e;
+  --color-danger: #ed1c24;
+  --color-black: #000000;
+
+  /* إعدادات الخلفية */
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+}
+
+html.dark {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+}
+body {
+  background-color: var(--color-background);
+}
+
+@layer utilities {
+  /* Colors */
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  /* Padding */
+  .padding {
+    @apply px-5 py-8 sm:px-20 sm:py-10;
+  }
+  .padding-x {
+    @apply px-5 sm:px-20;
+  }
+  .padding-y {
+    @apply sm:py-28 py-20;
+  }
+  /* Flex */
+  .flex {
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+  .flex-coloumn {
+    @apply flex flex-col justify-center items-center;
+  }
+}

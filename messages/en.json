@@ -1,0 +1,21 @@
+{
+  "Nav": {
+    "title": "Hello",
+    "nav": "Home"
+  },
+  "Services": {
+    "translation": "Translation",
+    "advertising": "Advertising",
+    "it": "IT Services",
+    "marketing": "Digital Marketing",
+    "student": "Student Services",
+    "electronic": "Electronic Services",
+    "business": "Business Services",
+    "print": "Plotter Printing",
+    "gifts": "Promotional Gifts"
+  },
+  "SEO": {
+    "title": "Transia - Printing hub",
+    "description": "Transia provides certified translation, advertising, IT solutions, digital marketing, business services, printing, and promotional gifts."
+  }
+}
